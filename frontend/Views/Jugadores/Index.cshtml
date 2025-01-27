@@ -1,0 +1,47 @@
+﻿@model IEnumerable<frontend.Models.Jugadores>
+
+@{
+    ViewData["Title"] = "Lista de Jugadores";
+}
+
+<h2>Lista de Jugadores</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Jugador</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Cédula</th>
+            <th># Camiseta</th>
+            <th>Lateralidad</th>
+            <th>ID del Equipo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var jugador in Model)
+        {
+            <tr>
+                <td>@jugador.Id</td>
+                <td>@jugador.Nombre</td>
+                <td>@jugador.Apellido</td>
+                <td>@jugador.Cedula</td>
+                <td>@jugador.NumCamiseta</td>
+                <td>@jugador.Lateralidad</td>
+                <td>@jugador.EquipoId</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@jugador.Id" class="btn btn-info">Detalles</a>
+                    <a asp-action="Edit" asp-route-id="@jugador.Id" class="btn btn-warning">Editar</a>
+                    <form asp-action="Delete" asp-route-id="@jugador.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

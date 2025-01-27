@@ -1,0 +1,35 @@
+﻿@model frontend.Models.Jugadores
+
+@{
+    ViewData["Title"] = "Eliminar Jugador";
+}
+
+<h2>Eliminar Jugador</h2>
+
+<h3>¿Estás seguro de que deseas eliminar este jugador?</h3>
+
+<div>
+    <h4>@Model.Nombre @Model.Apellido</h4>
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Cédula</dt>
+        <dd class="col-sm-10">@Model.Cedula</dd>
+
+        <dt class="col-sm-2"># Camiseta</dt>
+        <dd class="col-sm-10">@Model.NumCamiseta</dd>
+
+        <dt class="col-sm-2">Lateralidad</dt>
+        <dd class="col-sm-10">@Model.Lateralidad</dd>
+
+        <dt class="col-sm-2">ID del Equipo</dt>
+        <dd class="col-sm-10">@Model.EquipoId</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

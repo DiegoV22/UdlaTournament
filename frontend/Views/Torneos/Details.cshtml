@@ -1,0 +1,28 @@
+﻿@model frontend.Models.Torneos
+
+@{
+    ViewData["Title"] = "Detalles del Torneo";
+}
+
+<h2>Detalles del Torneo</h2>
+
+<div>
+    <h4>@Model.NombreTorneo</h4>
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.NombreTorneo</dd>
+
+        <dt class="col-sm-2">Fecha de Inicio</dt>
+        <dd class="col-sm-10">@Model.FechaInicio.ToString("yyyy-MM-dd")</dd>
+
+        <dt class="col-sm-2">Fecha de Fin</dt>
+        <dd class="col-sm-10">@Model.FechaFin.ToString("yyyy-MM-dd")</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+</p>

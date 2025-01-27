@@ -1,0 +1,24 @@
+﻿@model frontend.Models.Torneos
+
+@{
+    ViewData["Title"] = "Crear Torneo";
+}
+
+<h2>Crear Torneo</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="NombreTorneo">Nombre del Torneo</label>
+        <input type="text" class="form-control" asp-for="NombreTorneo" required />
+    </div>
+    <div class="form-group">
+        <label for="FechaInicio">Fecha de Inicio</label>
+        <input type="date" class="form-control" asp-for="FechaInicio" required />
+    </div>
+    <div class="form-group">
+        <label for="FechaFin">Fecha de Fin</label>
+        <input type="date" class="form-control" asp-for="FechaFin" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Cancelar</a>
+</form>

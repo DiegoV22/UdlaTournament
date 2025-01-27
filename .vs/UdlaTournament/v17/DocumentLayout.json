@@ -1,0 +1,783 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\torneosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\torneosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\models\\torneos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\models\\torneos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\equiposservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\equiposservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\interfaces\\itorneosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\interfaces\\itorneosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\controllers\\torneoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\controllers\\torneoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\jugadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\jugadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\usuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\usuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\jugadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\jugadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\jugadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\jugadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\jugadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\jugadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\jugadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\jugadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\jugadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\jugadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\models\\jugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\models\\jugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\interfaces\\ijugadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\interfaces\\ijugadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\models\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\models\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\interfaces\\iequiposservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\interfaces\\iequiposservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\torneos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\torneos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\torneos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\torneos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\torneos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\torneos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\torneos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\torneos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\torneos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\torneos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\interfaces\\iusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\interfaces\\iusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|c:\\users\\user\\onedrive\\desktop\\udlatournament\\frontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D391CDE-850E-4B17-A617-642F83289FAA}|frontend\\frontend.csproj|solutionrelative:frontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 34,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Usuarios\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:34:44.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:34:22.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:34:02.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:33:17.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:32:49.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "frontend\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "frontend\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T05:29:14.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\UsuariosService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\UsuariosService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\UsuariosService.cs",
+              "RelativeToolTip": "frontend\\Services\\UsuariosService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T05:22:45.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUsuariosService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\IUsuariosService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\Interfaces\\IUsuariosService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\IUsuariosService.cs",
+              "RelativeToolTip": "frontend\\Services\\Interfaces\\IUsuariosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T05:21:48.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Torneos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Delete.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Torneos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:25:40.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Torneos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Edit.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Torneos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:25:08.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Create.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Torneos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Create.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Torneos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:23:29.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Details.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Torneos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Details.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Torneos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:21:37.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Index.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Torneos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Torneos\\Index.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Torneos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:20:25.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Equipos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Delete.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Equipos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:20:03.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Equipos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Edit.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Equipos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:19:45.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Create.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Equipos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Create.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Equipos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:19:19.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Details.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Equipos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Details.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Equipos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:18:44.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Index.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Equipos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Equipos\\Index.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Equipos\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T23:17:52.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Jugadores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Delete.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Jugadores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T22:02:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Jugadores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Edit.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Jugadores\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T21:58:09.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Create.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Jugadores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Create.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Jugadores\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T21:57:44.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Details.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Jugadores\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Details.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Jugadores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T21:57:20.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Index.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Jugadores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Jugadores\\Index.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Jugadores\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T21:56:39.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T20:20:05.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T20:17:47.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "frontend\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "frontend\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T20:10:49.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\LoginService.cs",
+              "RelativeToolTip": "frontend\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:52:30.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\ILoginService.cs",
+              "RelativeToolTip": "frontend\\Services\\Interfaces\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:21:04.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\appsettings.json",
+              "RelativeDocumentMoniker": "frontend\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\appsettings.json",
+              "RelativeToolTip": "frontend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T17:59:21.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TorneosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\TorneosController.cs",
+              "RelativeDocumentMoniker": "frontend\\Controllers\\TorneosController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\TorneosController.cs",
+              "RelativeToolTip": "frontend\\Controllers\\TorneosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:58:54.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TorneosService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\TorneosService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\TorneosService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\TorneosService.cs",
+              "RelativeToolTip": "frontend\\Services\\TorneosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:57:59.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITorneosService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\ITorneosService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\Interfaces\\ITorneosService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\ITorneosService.cs",
+              "RelativeToolTip": "frontend\\Services\\Interfaces\\ITorneosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:57:32.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "frontend\\Controllers\\EquiposController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "frontend\\Controllers\\EquiposController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:55:49.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EquiposService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\EquiposService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\EquiposService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\EquiposService.cs",
+              "RelativeToolTip": "frontend\\Services\\EquiposService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:54:42.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEquiposService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\IEquiposService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\Interfaces\\IEquiposService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\IEquiposService.cs",
+              "RelativeToolTip": "frontend\\Services\\Interfaces\\IEquiposService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:54:00.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "frontend\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "frontend\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:51:46.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Program.cs",
+              "RelativeDocumentMoniker": "frontend\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Program.cs",
+              "RelativeToolTip": "frontend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:50:34.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JugadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\JugadoresController.cs",
+              "RelativeDocumentMoniker": "frontend\\Controllers\\JugadoresController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Controllers\\JugadoresController.cs",
+              "RelativeToolTip": "frontend\\Controllers\\JugadoresController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:47:20.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JugadoresService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\JugadoresService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\JugadoresService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\JugadoresService.cs",
+              "RelativeToolTip": "frontend\\Services\\JugadoresService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:32:34.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IJugadoresService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\IJugadoresService.cs",
+              "RelativeDocumentMoniker": "frontend\\Services\\Interfaces\\IJugadoresService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Services\\Interfaces\\IJugadoresService.cs",
+              "RelativeToolTip": "frontend\\Services\\Interfaces\\IJugadoresService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:38.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "frontend\\Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Usuarios.cs",
+              "RelativeToolTip": "frontend\\Models\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:57:39.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Torneos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Torneos.cs",
+              "RelativeDocumentMoniker": "frontend\\Models\\Torneos.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Torneos.cs",
+              "RelativeToolTip": "frontend\\Models\\Torneos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:55:59.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Equipos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Equipos.cs",
+              "RelativeDocumentMoniker": "frontend\\Models\\Equipos.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Equipos.cs",
+              "RelativeToolTip": "frontend\\Models\\Equipos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:54:46.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Jugadores.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Jugadores.cs",
+              "RelativeDocumentMoniker": "frontend\\Models\\Jugadores.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\Models\\Jugadores.cs",
+              "RelativeToolTip": "frontend\\Models\\Jugadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:53:39.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

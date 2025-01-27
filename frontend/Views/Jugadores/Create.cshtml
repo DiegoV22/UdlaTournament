@@ -1,0 +1,36 @@
+﻿@model frontend.Models.Jugadores
+
+@{
+    ViewData["Title"] = "Crear Jugador";
+}
+
+<h2>Crear Jugador</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" asp-for="Nombre" required />
+    </div>
+    <div class="form-group">
+        <label for="Apellido">Apellido</label>
+        <input type="text" class="form-control" asp-for="Apellido" required />
+    </div>
+    <div class="form-group">
+        <label for="Cedula">Cédula</label>
+        <input type="text" class="form-control" asp-for="Cedula" required />
+    </div>
+    <div class="form-group">
+        <label for="NumCamiseta"># Camiseta</label>
+        <input type="number" class="form-control" asp-for="NumCamiseta" required />
+    </div>
+    <div class="form-group">
+        <label for="Lateralidad">Lateralidad</label>
+        <input type="text" class="form-control" asp-for="Lateralidad" required />
+    </div>
+    <div class="form-group">
+        <label for="EquipoId">ID del Equipo</label>
+        <input type="number" class="form-control" asp-for="EquipoId" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Cancelar</a>
+</form>

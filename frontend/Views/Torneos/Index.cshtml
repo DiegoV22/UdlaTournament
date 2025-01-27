@@ -1,0 +1,41 @@
+﻿@model IEnumerable<frontend.Models.Torneos>
+
+@{
+    ViewData["Title"] = "Lista de Torneos";
+}
+
+<h2>Lista de Torneos</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Torneo</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Fecha de Inicio</th>
+            <th>Fecha de Fin</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var torneo in Model)
+        {
+            <tr>
+                <td>@torneo.Id</td>
+                <td>@torneo.NombreTorneo</td>
+                <td>@torneo.FechaInicio.ToString("yyyy-MM-dd")</td>
+                <td>@torneo.FechaFin.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@torneo.Id" class="btn btn-info">Detalles</a>
+                    <a asp-action="Edit" asp-route-id="@torneo.Id" class="btn btn-warning">Editar</a>
+                    <form asp-action="Delete" asp-route-id="@torneo.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

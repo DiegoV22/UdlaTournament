@@ -1,0 +1,39 @@
+﻿@model IEnumerable<frontend.Models.Equipos>
+
+@{
+    ViewData["Title"] = "Lista de Equipos";
+}
+
+<h2>Lista de Equipos</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Equipo</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre del Equipo</th>
+            <th>ID del Torneo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var equipo in Model)
+        {
+            <tr>
+                <td>@equipo.Id</td>
+                <td>@equipo.NombreEquipo</td>
+                <td>@equipo.TorneoId</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@equipo.Id" class="btn btn-info">Detalles</a>
+                    <a asp-action="Edit" asp-route-id="@equipo.Id" class="btn btn-warning">Editar</a>
+                    <form asp-action="Delete" asp-route-id="@equipo.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
