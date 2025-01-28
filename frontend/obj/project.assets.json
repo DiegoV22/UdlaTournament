@@ -5611,11 +5611,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\frontend.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Documentos\\Repositorios\\UdlaTournament\\frontend\\frontend.csproj",
       "projectName": "frontend",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\frontend.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Documentos\\Repositorios\\UdlaTournament\\frontend\\frontend.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\UdlaTournament\\frontend\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Documentos\\Repositorios\\UdlaTournament\\frontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

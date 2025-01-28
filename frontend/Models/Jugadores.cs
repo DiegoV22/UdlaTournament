@@ -14,6 +14,6 @@
 
         public string Lateralidad { get; set; } // Lateralidad (Derecha/Izquierda) del jugador
 
-        public int EquipoId { get; set; } // Clave foránea al equipo
+        public int? EquipoId { get; set; } // Clave foránea al equipo
     }
 }

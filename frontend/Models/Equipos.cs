@@ -6,6 +6,6 @@
 
         public string NombreEquipo { get; set; } // Nombre del equipo
 
-        public int TorneoId { get; set; } // Clave foránea al torneo
+        public int? TorneoId { get; set; } // Clave foránea al torneo
     }
 }
