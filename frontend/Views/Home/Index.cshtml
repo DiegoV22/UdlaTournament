@@ -1,8 +1,65 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; display: flex; flex-direction: column; background-color: #d6d6d6; min-height: 100vh;">
+
+    <!-- Sección con imagen de fondo -->
+    <div style="background-image: url('/images/fondoHome.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; position: absolute; top: 0; left: 0; right: 0; width: 98vw; height: 50vh; z-index: -1;">
+        <!-- Texto centrado encima de la imagen -->
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center;">
+            <h2 style="font-size: 32px; font-weight: bold; margin: 0; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                La pasión de los deportes es lo que nos mueve
+            </h2>
+        </div>
+    </div>
+
+    <!-- Contenedor centrado debajo de la primera imagen -->
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 30px; margin-top: 50vh;">
+        <div style="background-color: #1e201d; padding: 30px; border-radius: 10px; text-align: center; color: white; max-width: 100%; width: 100%;">
+            <h1 class="display-4" style="color: white; margin-bottom: 20px;">Udla Tournament</h1>
+            <p style="font-size: 18px; line-height: 1.5;">Bienvenidos a la página web de excelencia para gestionar todos tus partidos. Siéntete libre de configurar lo que quieras para tener una mejor experiencia.</p>
+        </div>
+    </div>
+
+    <!-- Sección de "Sobre Nosotros" -->
+    <div style="display: flex; justify-content: center; align-items: center; padding: 40px; background-color: #d6d6d6 ;  text-align: center;">
+        <div style="max-width: 100%; width: 100%; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <h1 class="display-4" style="color: black; margin-bottom: 20px;">Sobre Nosotros</h1>
+            <p style="font-size: 16px; line-height: 1.6;">
+                En Udla Tournament, creemos que el deporte no solo es una actividad física, sino una forma de unir a las personas, romper barreras y alcanzar metas increíbles. Nos especializamos en organizar campeonatos interuniversitarios que inspiran, motivan y celebran la pasión por el fútbol y el espíritu de equipo.
+            </p>
+        </div>
+    </div>
+
+    <!-- Contenedor centrado debajo de la primera imagen -->
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 30px; margin-top: 2.5vh;">
+        <div style="background-color: #72b252; padding: 30px; border-radius: 10px; text-align: center; color: white; max-width: 100%; width: 100%;">
+            <h1 class="display-4" style="color: white; margin-bottom: 20px;">Una Historia para Inspirarte</h1>
+            <p style="font-size: 16px; line-height: 1.6;">
+                Cada año, en el campeonato de fútbol interuniversitario, cientos de estudiantes de diferentes carreras y universidades se reúnen para demostrar su pasión por el deporte.
+                Lo que comenzó como una idea entre amigos en una cancha vacía, se ha convertido en el evento deportivo más esperado del semestre.
+            </p>
+            <p style="font-size: 16px; line-height: 1.6;">
+                Desde goles espectaculares hasta jugadas estratégicas, este torneo es más que fútbol: es un encuentro de talentos, esfuerzo y sueños. Muchos de nuestros participantes no solo han desarrollado grandes amistades, sino también habilidades de liderazgo, trabajo en equipo y resiliencia.
+            </p>
+            <p style="font-size: 16px; line-height: 1.6;">
+                Este año, te invitamos a ser parte de esta experiencia única. Forma tu equipo, representa a tu universidad y deja tu marca en la historia del campeonato. ¿Estás listo para convertirte en leyenda?
+            </p>
+        </div>
+    </div>
+
+    <!-- Espacio entre las secciones -->
+    <div style="height: 30px;"></div>
+
+    <!-- Segunda sección con imagen de fondo -->
+    <div style="background-image: url('/images/fondoHome2.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; position: relative; width: 83vw; height: 50vh;">
+        <!-- Texto centrado encima de la segunda imagen -->
+        <div style="position: absolute; top: 18%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center;">
+            <h2 style="font-size: 32px; font-weight: bold; margin: 0; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                Otra oportunidad para destacar
+            </h2>
+        </div>
+    </div>
+
+</body>

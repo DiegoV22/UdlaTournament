@@ -3,51 +3,71 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - frontend</title>
+    <title>@ViewData["Title"] - Udla Tournament</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/frontend.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Hacer que el header sea fijo */
+        header.bg-dark {
+            position: sticky;
+            top: 0;
+            z-index: 1030; /* Asegura que esté por encima del contenido */
+        }
+
+        /* Evitar que la navbar tape el contenido */
+        main {
+            padding-top: 4.5rem; /* Altura de la navbar */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">frontend</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <!-- Solo se muestran opciones después de iniciar sesión -->
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Jugadores" asp-action="Index">Jugadores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Equipos" asp-action="Index">Equipos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Torneos" asp-action="Index">Torneos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                        </li>
-                    </ul>
+    @* Verifica si la vista actual es la de Login para no mostrar la navbar *@
+    @if (ViewData["Title"]?.ToString() != "Iniciar Sesión")
+    {
+        <header class="bg-dark text-white shadow-sm">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <!-- Logo y nombre del sitio -->
+                    <a class="navbar-brand ms-4" asp-controller="Home" asp-action="Index" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 1.8rem;">
+                        Udla Tournament
+                    </a>
+
+                    <!-- Botón de menú en móviles -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Menú de navegación -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto me-4">
+                            <li class="nav-item">
+                                <a class="nav-link text-white px-3 py-2" asp-controller="Jugadores" asp-action="Index" style="font-family: 'Roboto', sans-serif; font-weight: 500;">Jugadores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white px-3 py-2" asp-controller="Equipos" asp-action="Index" style="font-family: 'Roboto', sans-serif; font-weight: 500;">Equipos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white px-3 py-2" asp-controller="Torneos" asp-action="Index" style="font-family: 'Roboto', sans-serif; font-weight: 500;">Torneos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white px-3 py-2" asp-controller="Usuarios" asp-action="Index" style="font-family: 'Roboto', sans-serif; font-weight: 500;">Usuarios</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    }
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - frontend
-        </div>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

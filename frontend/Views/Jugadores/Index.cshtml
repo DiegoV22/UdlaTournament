@@ -4,44 +4,65 @@
     ViewData["Title"] = "Lista de Jugadores";
 }
 
-<h2>Lista de Jugadores</h2>
+<style>
+    /* Estilo para el fondo de toda la página */
+    body {
+        background-image: url('/images/fondoJugador.jpg'); /* Cambia esto por la ruta de tu imagen */
+        background-size: cover; /* La imagen cubrirá toda la pantalla */
+        background-repeat: no-repeat; /* No repetirá la imagen */
+        background-attachment: fixed; /* La imagen permanecerá fija al hacer scroll */
+        background-position: center; /* Centra la imagen en el fondo */
+        color: #333; /* Color de texto general para que sea visible sobre la imagen */
+    }
+</style>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Jugador</a>
+<!-- Título centrado con fondo negro y borde -->
+<div style="background-color: black; color: white; text-align: center; padding: 20px; margin-bottom: 20px; width: 100%; border: 2px solid #333; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h2 style="margin: 0;">Lista de Jugadores</h2>
+</div>
+
+<!-- Botón de Crear Nuevo Jugador -->
+<p style="text-align: center; margin-bottom: 30px;">
+    <a asp-action="Create" class="btn btn-primary" style="background-color: #288c2d; color: white; padding: 15px 40px; font-size: 16px;">Crear Nuevo Jugador</a>
 </p>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Cédula</th>
-            <th># Camiseta</th>
-            <th>Lateralidad</th>
-            <th>ID del Equipo</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var jugador in Model)
-        {
+<!-- Tabla personalizada con bordes y bordes redondeados -->
+<div class="table-responsive">
+    <table class="table" style="border: 2px solid #000; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
+        <thead style="background-color: black; color: white; border-bottom: 2px solid #000;">
             <tr>
-                <td>@jugador.Id</td>
-                <td>@jugador.Nombre</td>
-                <td>@jugador.Apellido</td>
-                <td>@jugador.Cedula</td>
-                <td>@jugador.NumCamiseta</td>
-                <td>@jugador.Lateralidad</td>
-                <td>@jugador.EquipoId</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@jugador.Id" class="btn btn-info">Detalles</a>
-                    <a asp-action="Edit" asp-route-id="@jugador.Id" class="btn btn-warning">Editar</a>
-                    <form asp-action="Delete" asp-route-id="@jugador.Id" method="post" style="display:inline;">
-                        <button type="submit" class="btn btn-danger">Eliminar</button>
-                    </form>
-                </td>
+                <th style="text-align: center;">ID</th>
+                <th style="text-align: center;">Nombre</th>
+                <th style="text-align: center;">Apellido</th>
+                <th style="text-align: center;">Cédula</th>
+                <th style="text-align: center;"># Camiseta</th>
+                <th style="text-align: center;">Lateralidad</th>
+                <th style="text-align: center;">ID del Equipo</th>
+                <th style="text-align: center;">Acciones</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var (jugador, index) in Model.Select((value, i) => (value, i)))
+            {
+                <!-- Alternar entre colores #a2ee7d y blanco -->
+                <tr style="background-color: @(index % 2 == 0 ? "#a2ee7d" : "white");">
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.Id</td>
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.Nombre</td>
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.Apellido</td>
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.Cedula</td>
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.NumCamiseta</td>
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.Lateralidad</td>
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">@jugador.EquipoId</td>
+                    <!-- Celda de acciones centrada -->
+                    <td style="padding: 15px; border: 1px solid #000; border-radius: 5px; text-align: center;">
+                        <a asp-action="Details" asp-route-id="@jugador.Id" class="btn btn-info" style="background-color: #a05b16; color: white; margin: 5px; padding: 10px 25px;">Detalles</a>
+                        <a asp-action="Edit" asp-route-id="@jugador.Id" class="btn btn-warning" style="background-color: #cf7e2b; color: white; margin: 5px; padding: 10px 25px;">Editar</a>
+                        <form asp-action="Delete" asp-route-id="@jugador.Id" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger" style="margin: 5px; padding: 10px 25px;">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

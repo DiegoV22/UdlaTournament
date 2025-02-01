@@ -1,5 +1,12 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\fondoEquipo.jpg
+wwwroot\Images\fondoHome.jpg
+wwwroot\Images\fondoHome2.jpg
+wwwroot\Images\fondoJugador.jpg
+wwwroot\Images\fondoSesion.png
+wwwroot\Images\fondoTorneo.jpg
+wwwroot\Images\fondoUsuario.png
 wwwroot\Images\index.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

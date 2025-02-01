@@ -4,34 +4,75 @@
     ViewData["Title"] = "Editar Jugador";
 }
 
-<h2>Editar Jugador</h2>
+<body style="background-image: url('/images/fondoJugador.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; margin: 0; padding: 0; font-family: Arial, sans-serif; height: 100vh; display: flex; flex-direction: column;">
 
-<form asp-action="Edit" method="post">
-    <input type="hidden" asp-for="Id" />
-    <div class="form-group">
-        <label for="Nombre">Nombre</label>
-        <input type="text" class="form-control" asp-for="Nombre" required />
+    <!-- Contenedor del formulario centrado -->
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; margin-top: 90px;">
+        <div style="background-color: #1e201d; padding: 20px; border-radius: 10px; width: 100%; max-width: 400px; color: white;">
+            <h2 style="text-align: center;">Editar Jugador</h2>
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">@TempData["Error"]</div>
+            }
+
+            @if (TempData["Mensaje"] != null)
+            {
+                <div class="alert alert-success">@TempData["Mensaje"]</div>
+            }
+
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="Id" />
+
+                <!-- Campo para Nombre -->
+                <div class="form-group">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" asp-for="Nombre" required />
+                </div>
+
+                <!-- Campo para Apellido -->
+                <div class="form-group">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" class="form-control" asp-for="Apellido" required />
+                </div>
+
+                <!-- Campo para Cédula -->
+                <div class="form-group">
+                    <label for="Cedula">Cédula</label>
+                    <input type="text" class="form-control" asp-for="Cedula" required />
+                </div>
+
+                <!-- Campo para # Camiseta -->
+                <div class="form-group">
+                    <label for="NumCamiseta"># Camiseta</label>
+                    <input type="number" class="form-control" asp-for="NumCamiseta" required />
+                </div>
+
+                <!-- Campo para Lateralidad -->
+                <div class="form-group">
+                    <label for="Lateralidad">Lateralidad</label>
+                    <input type="text" class="form-control" asp-for="Lateralidad" required />
+                </div>
+
+                <!-- Campo para ID del Equipo -->
+                <div class="form-group">
+                    <label for="EquipoId">ID del Equipo</label>
+                    <input type="number" class="form-control" asp-for="EquipoId" required />
+                </div>
+
+                <!-- Botón para Guardar Cambios -->
+                <button type="submit" class="btn btn-primary"
+                        style="margin-top: 20px; background-color: #7fff6b; border-color: #7fff6b; color: black;
+                               display: block; margin: 20px auto 0 auto; width: 80%; height: 50px; font-size: 16px;">
+                    Guardar Cambios
+                </button>
+
+                <!-- Botón para Cancelar (Color Rojo) -->
+                <a asp-action="Index" class="btn btn-secondary"
+                   style="display: block; margin: 10px auto; width: 80%; height: 50px; font-size: 16px; background-color: #e74c3c; color: white; text-align: center; padding: 15px 0; border-radius: 5px;">
+                    Cancelar
+                </a>
+            </form>
+        </div>
     </div>
-    <div class="form-group">
-        <label for="Apellido">Apellido</label>
-        <input type="text" class="form-control" asp-for="Apellido" required />
-    </div>
-    <div class="form-group">
-        <label for="Cedula">Cédula</label>
-        <input type="text" class="form-control" asp-for="Cedula" required />
-    </div>
-    <div class="form-group">
-        <label for="NumCamiseta"># Camiseta</label>
-        <input type="number" class="form-control" asp-for="NumCamiseta" required />
-    </div>
-    <div class="form-group">
-        <label for="Lateralidad">Lateralidad</label>
-        <input type="text" class="form-control" asp-for="Lateralidad" required />
-    </div>
-    <div class="form-group">
-        <label for="EquipoId">ID del Equipo</label>
-        <input type="number" class="form-control" asp-for="EquipoId" required />
-    </div>
-    <button type="submit" class="btn btn-primary mt-3">Guardar Cambios</button>
-    <a asp-action="Index" class="btn btn-secondary mt-3">Cancelar</a>
-</form>
+</body>
